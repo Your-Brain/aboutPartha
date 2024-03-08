@@ -107,12 +107,12 @@ body {
 .wrapperName .line {
   font-weight: bolder;
   font-size: 1.9rem;
-  color: #545642;
+  color: #1e1f13;
 }
 .wrapperName span {
   font-weight: 600;
   font-size: 1.5rem;
-  color: #543d4d;
+  color: #111111;
   font-family: "Madimi One", sans-serif;
   font-family: "Anta", sans-serif;
 }
@@ -141,7 +141,7 @@ body {
   /* background-color: rgb(38, 172, 156); */
 }
 .conLogo ul {
-  /* background-color: #f12711; */
+  /* background-color: #281513; */
   width: 100%;
   height: 60%;
   display: flex;
@@ -391,25 +391,65 @@ body {
   align-items: center;
 }
 
-@media (max-width: 768px) {
+/* Styles for devices with a maximum width of 767px (commonly used for mobile devices) */
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    width: 90%;
+    height: 60vh;
+  }
+  .oneDiv {
+    /* background-color: #f12711; */
+    width: 40%;
+    height: 100%;
+  }
   .roundBig {
-    width: 85%;
-    height: 16%;
+    width: 70%;
+    height: 20%;
   }
-  .my2 {
-    margin-top: -37px;
+  .roundSmall {
+    width: 90%;
+    height: 90%;
   }
-  .my2::before {
-    margin-top: -24px;
+  .my1 {
+    /* background-color: #35a34d; */
+    width: 90%;
+    /* height: 50%; */
+  }
+  .srink {
+    gap: 20px;
+    /* background-color: #f12711; */
+  }
+  .wrapperName span:nth-child(1) {
+    font-size: 2em;
+  }
+  .wrapperName span:nth-child(2) {
+    font-size: 2em;
+  }
+  .conLogo {
+    width: 100%;
   }
   ul {
-    gap: 6px;
+    /* flex-wrap: wrap; */
+    /* background-color: aliceblue; */
+    width: 100%;
+
+    gap: 16px;
+  }
+  .my1 {
+    margin-top: -29px;
+  }
+  .my2 {
+    margin-top: -5px;
+    height: 10%;
+    /* background-color: #f12711; */
   }
   .wrapperName p::after {
     display: none;
   }
-  .conLogo ul li {
-    width: 30px;
-    height: 30px;
+  .my2::before {
+    left: 25%;
+    width: 73%;
   }
+
+  /* Your mobile styles go here */
 }
