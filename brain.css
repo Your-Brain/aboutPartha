@@ -316,7 +316,7 @@ i {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
   .box {
     width: 93%;
     height: 70vh;
@@ -332,6 +332,35 @@ i {
   .box .left .round-b .round-s img {
     width: 65px;
     height: 65px;
+  }
+  .box .right .bo_1 .st_1 p {
+    font-size: 29px;
+  }
+  .data_ p a {
+    font-size: 16px;
+  }
+  .end {
+    width: 3%;
+  }
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 500px) {
+  .box {
+    width: 93%;
+    height: 70vh;
+  }
+  .box .left .round-b {
+    width: 100px;
+    height: 100px;
+  }
+  .box .left .round-b .round-s {
+    width: 85px;
+    height: 85px;
+  }
+  .box .left .round-b .round-s img {
+    width: 85px;
+    height: 85px;
   }
   .box .right .bo_1 .st_1 p {
     font-size: 29px;
