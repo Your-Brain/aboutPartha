@@ -27,8 +27,9 @@ body {
   align-items: center;
   background-color: var(--black);
   border-radius: 40px;
-  animation: smallBig_sh 9s linear infinite;
+  animation: smallBig_sh 4s linear infinite;
   padding: 2px;
+  border: 0.1px solid #eeeeee5d;
 }
 
 @keyframes smallBig_sh {
@@ -360,7 +361,7 @@ i {
     height: 115px;
   }
   .box .right .bo_1 .st_1 p {
-    
+
     font-size: 34px;
   }
   .data_ p a {
